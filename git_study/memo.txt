@@ -63,7 +63,6 @@ git checkout master       -->     index.htmlを編集 1st    に変更
 git merge hogehoge        -->  コンフリクト発生！！
 
 <入門16> 衝突の解決
-
 (1) 
 
 git status           -->  both modified: index.html
@@ -76,6 +75,7 @@ line 1st
 
 
 (2)
+git status           -->  both modified: index.html
 
 ---> どちらかを消せばいい。
 例）
@@ -133,7 +133,6 @@ testBディレクトリに複製
  git push origin master としたときにコンフリクトが起こる
 
  --> mergeと同じようにする。
-
 
 ＜git情報＞
  wget -r 1 -m --convert-links http://git-scm.com/book/ GITの本
