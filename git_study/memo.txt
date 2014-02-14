@@ -101,5 +101,22 @@ git config --global alias.ci commit
 git st  <---- status
 git config -l 
 
+<入門19> 共有リポジトリ
+mkdir ourweb.git
+git init --bare
+
+Aさん  myweb
+Bさん  myweb2
+
+
+<入門20＞
+git remote add origin ~/ourweb.git
+git remote rm 
+
+git push orign master  <---- origin に masterの内容をpushする
+
+
+<入門21＞
+git clone ~/ourweb.git/  myweb2
 
 
