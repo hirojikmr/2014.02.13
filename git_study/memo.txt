@@ -1,7 +1,30 @@
 sudo apt-get install git-core
-git add .
-git status
+
+<入門1>
 git config --global core.editor vim
+
+git status
+git status --oneline
+git status -p oneline
+
+
+<入門8>
+git add hoge.txt
+git add .
 git mv 
 git rm
 
+<入門9>
+vim .gitignore <----- ファイルを作成する。
+*.log  <------------- 無視するファイルを指定する。
+
+下位ディレクトリにも適応される。
+
+<入門10>
+git commit -m "メッセージを追加できます"
+git commit --amend        コミット自体を増やさずに。
+
+<入門11>
+git reset --hard HEAD
+git reset --hard HEAD^  も一つ前
+git reset --hard HEAD
