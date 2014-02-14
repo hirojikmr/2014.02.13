@@ -28,3 +28,7 @@ git commit --amend        コミット自体を増やさずに。
 git reset --hard HEAD   <---- 一つ前へ
 git reset --hard HEAD^  <---- も一つ前
 git reset --hard d196612 <--- idで指定して
+
+<GitHub>
+git push origin  <------ これでGitHubと同期される>
+id pass 入力する
