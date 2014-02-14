@@ -5,6 +5,7 @@
  	->  配線も含めて整理する。
 
 
+
 【2014.02.14】
 
 今日は、バレンタインデー
@@ -88,8 +89,38 @@
 	-> mongodbのインストール中
 		(コンパイル中）
 
+(5) mongodb
+	document oriented database
+	~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No SQL Database
 
+	kinds of databases
+	1.RDMS
+	2.OLAP
+	3.NoSQL --> horizontal scalability (scale out)
+		a) key value store
+		b) tabular (BigTable)
+		c) document oriented (Document oriented)
 
+	NoSQL what is missing?
+		No joins
+		no complex transaction
+		horizontal scalability
+
+	NoSQL Extra
+		query
+		fast
+		horizontal scalable
+		
+	RDBMS   --> table
+	MongoDB --> collection 
+		    BSON format
+		    Document Object (record in rdbms)
+		    number of fields can vary
+			(it's like a hash)
+	
+	OOP    <--> OBJ <--> RDBMS 
+	OOP    <--> mongoDB         (no conversion)
 
 
 【ほか】
