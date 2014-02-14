@@ -32,3 +32,10 @@ git reset --hard d196612 <--- idで指定して
 <GitHub>
 git push origin  <------ これでGitHubと同期される>
 id pass 入力する
+
+<入門12>
+git reset --hard ORIG_HEAD  <--- 前回取り消された情報が１つ残ってる。
+
+<好きなところへ戻るには？＞
+.git/logs/HEADでIDを調べて
+git reset --hard d196612 <--- idで指定して
