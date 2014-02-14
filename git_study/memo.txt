@@ -39,3 +39,19 @@ git reset --hard ORIG_HEAD  <--- 前回取り消された情報が１つ残っ�
 <好きなところへ戻るには？＞
 .git/logs/HEADでIDを調べて
 git reset --hard d196612 <--- idで指定して
+
+
+<入門13> branch
+git branch 
+git branch hoge
+git checkout hoge
+git checkout master <---- ものとブランチへもどる
+
+<入門14> merge
+git log master
+git log hoge1      <---- このようにするとログを比較できる
+git log hoge2
+
+git merge hoge1    <----- masterにマージできる
+git branch -d hoge2  <--- hoge2はもういらない
+
