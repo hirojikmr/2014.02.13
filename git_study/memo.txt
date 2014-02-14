@@ -128,3 +128,9 @@ testBディレクトリに複製
  git clone ~/test.git/  testB
        --> testBに共有ディレクトリを複製する。
 
+<入門22＞ 共有リポジトリトラブル解決
+
+ git push origin master としたときにコンフリクトが起こる
+
+ --> mergeと同じようにする。
+
