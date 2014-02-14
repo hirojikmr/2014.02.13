@@ -135,3 +135,5 @@ testBディレクトリに複製
  --> mergeと同じようにする。
 
 
+＜git情報＞
+ wget -r 1 -m --convert-links http://git-scm.com/book/ GITの本
