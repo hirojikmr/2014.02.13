@@ -67,12 +67,12 @@ git merge hogehoge        -->  コンフリクト発生！！
 (1) 
 
 git status           -->  both modified: index.html
-<<<<<<<<< HEAD       <-------  masterブランチはこうですよ
+＜＜＜＜＜ HEAD       <-------  masterブランチはこうですよ
 line first
 
 ==========
 line 1st
->>>>>>>>>  hogehoge   <------ hogehogeブランチはこうですよ
+＞＞＞＞＞＞  hogehoge   <------ hogehogeブランチはこうですよ
 
 
 (2)
