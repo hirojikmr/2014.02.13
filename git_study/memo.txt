@@ -63,6 +63,9 @@ git checkout master       -->     index.htmlを編集 1st    に変更
 git merge hogehoge        -->  コンフリクト発生！！
 
 <入門16> 衝突の解決
+
+(1) 
+
 git status           -->  both modified: index.html
 <<<<<<<<< HEAD       <-------  masterブランチはこうですよ
 line first
@@ -72,6 +75,21 @@ line 1st
 >>>>>>>>>  hogehoge   <------ hogehogeブランチはこうですよ
 
 
+(2)
+
 ---> どちらかを消せばいい。
 例）
 line first           <------- masterの方を選んだ
+
+(3)
+git commit -a -m "line first選びました"
+
+
+<入門17>タグ
+git tag v1.0         <---- v1.0タグをつける
+git reset でも使える
+git tag -d v1.0      <---- タグ削除
+git tag v1.0 8666d99 <-----ID指定して (このIDに対して付けられる）
+
+
+
