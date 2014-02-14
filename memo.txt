@@ -23,6 +23,8 @@
         --> bcmのHWマニュアルは難解である。
 
         --> BeagleBone Blackはどうか？
+            
+            ---> 同様に難解。（GPIOのアドレスもすぐにはわからない）
 
   <b>BeagleBone Black
 	--> GPIOのLED制御部分を確認
