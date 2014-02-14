@@ -1,4 +1,7 @@
+
 var http = require('http');
+var settings = require('./settings');
+console.log(settings);
 var server = http.createServer();
 
 server.on('request', function(req, res) {
@@ -7,5 +10,5 @@ server.on('request', function(req, res) {
 	res.end();
 });
 
-server.listen(8000, '192.168.2.92');
+server.listen(settings.port, settings.host);
 console.log("server listening...");
