@@ -7,4 +7,5 @@
 
 【今日の目標】
 ・gitを使えるようになる。
+  --> git 関連のdotinstallを完了する。
 ・minixのGPIOの成り立ちを理解する。
