@@ -55,3 +55,12 @@ git log hoge2
 git merge hoge1    <----- masterにマージできる
 git branch -d hoge2  <--- hoge2はもういらない
 
+
+<入門15> merge 衝突
+git commit -m"初めてのコミット"   --> index.html   1
+git checkout -b hogehoge  --> 例）index.htmlを編集 first  に変更
+git checkout master       -->     index.htmlを編集 1st    に変更
+git merge hogehoge        -->  コンフリクト発生！！
+
+
+< >
