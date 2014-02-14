@@ -62,5 +62,16 @@ git checkout -b hogehoge  --> 例）index.htmlを編集 first  に変更
 git checkout master       -->     index.htmlを編集 1st    に変更
 git merge hogehoge        -->  コンフリクト発生！！
 
+<入門16> 衝突の解決
+git status           -->  both modified: index.html
+<<<<<<<<< HEAD       <-------  masterブランチはこうですよ
+line first
 
-< >
+==========
+line 1st
+>>>>>>>>>  hogehoge   <------ hogehogeブランチはこうですよ
+
+
+---> どちらかを消せばいい。
+例）
+line first           <------- masterの方を選んだ
