@@ -20,6 +20,10 @@
   <a>Raspberry Piのアセンブリのチュートリアル(ケンブリッジ大学）
 	--> GPIO上のLEDの制御  
 
+        --> bcmのHWマニュアルは難解である。
+
+        --> BeagleBone Blackはどうか？
+
   <b>BeagleBone Black
 	--> GPIOのLED制御部分を確認
 
