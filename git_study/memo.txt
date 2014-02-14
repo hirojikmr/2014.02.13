@@ -1,0 +1,7 @@
+sudo apt-get install git-core
+git add .
+git status
+git config --global core.editor vim
+git mv 
+git rm
+
