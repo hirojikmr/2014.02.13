@@ -69,6 +69,24 @@
 　 -> Node.jsをインストールしてみる
    -> #08まで見た。(#09 npmからは、作成していない。）
 
+   (why nodejs?) 
+	non-blocking ｰ>時間のかかるI/Oは、callbackで処理する。
+	-> ちょうどGUIのプログラミングと同じように
+　	-> eventに対しての処理を記述していく間隔で作る。
+	-> でも、それってOSがやってることではないか？
+	Tornado(Python non-blocking framework)
+
+   (google V8)
+	JavaScript実行エンジン
+
+　(StrongTalk)
+	
+	SmallTalk
+
+  Granny on Node.js locallyをインストールしてみる
+
+
+
 
 
 【ほか】
