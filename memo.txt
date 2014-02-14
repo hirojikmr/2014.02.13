@@ -84,6 +84,9 @@
 	SmallTalk
 
   Granny on Node.js locallyをインストールしてみる
+	http://osintegrators.com/grannynode
+	-> mongodbのインストール中
+		(コンパイル中）
 
 
 
