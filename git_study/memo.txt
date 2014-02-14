@@ -102,21 +102,29 @@ git st  <---- status
 git config -l 
 
 <入門19> 共有リポジトリ
-mkdir ourweb.git
-git init --bare
+mkdir test.git  
+	--> 共有ディレクトリ
+git init --bare 
+	--> 共有ディレクトリ初期化
 
-Aさん  myweb
-Bさん  myweb2
-
+作業者
+	--> Aさん  testAディレクトリ
+	--> Bさん  testBディレクトリ
 
 <入門20＞
-git remote add origin ~/ourweb.git
-git remote rm 
+testAディレクトリ 
+	--> git init実行
+	--> ファイルを編集
+	--> commit
 
-git push orign master  <---- origin に masterの内容をpushする
+ git remote add origin ~/test.git
+            (関連付け）
 
+ git push orign master 
+	--> origin に masterの内容をpush
 
 <入門21＞
-git clone ~/ourweb.git/  myweb2
-
+testBディレクトリに複製
+ git clone ~/test.git/  testB
+       --> testBに共有ディレクトリを複製する。
 
