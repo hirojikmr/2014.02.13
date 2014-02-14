@@ -1,0 +1,39 @@
+環境設定
+
+<ENV>
+wget http://www.cl.cam.ac.uk/freshers/raspberrypi/tutorials/os/downloads/arm-none-eabi.tar.bz2
+
+tar xjvf arm-none-eabi.tar.bz2
+
+<PATH>
+export PATH=$PATH:$HOME/arm-2008q3/bin
+
+<TEMPLATE>
+https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/downloads/template.tar.gz
+
+
+<OK01>
+
+r0 = 0x2020 0000  <------- the address of GPIO
+
+r1 = 0x0004 0000  <------- 18-20  001にセットする
+                           GPIO 16を　OUTPUTに設定
+
+0    0    0    4        0    0    0    0
+
+0000 0000 0000 0100     0000 0000 0000 0000
+             ~ ~~
+3322 2222 2222 1111     1111 1100 0000 0000
+1098 7654 3210 9876     5432 1098 7654 3210
+ 
+             0 01 <-------------- 
+
+r1=0x00001 0000
+
+  00000000100000
+
+
+-->
+-->  かなり難解！！
+-->
+
