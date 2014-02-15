@@ -30,6 +30,23 @@
 
 		PWR          HDMI
 
+・温度センサーの接続 (10:35-11:15)
+	・接続方法の調査
+	1.              GRD	
+	2. D		DATA   GPIO4     
+	3.		POWER  (connect 2 and 3 with a 4.7k register)
+       (bottom view)
+
+	・コマンドからの操作方法
+
+		sudo modprobe w1-gpio
+		sudo modprobe w1-therm
+		cd /sys/bus/w1/devices/
+		ls
+
+	・Pythonからの操作
+		サンプルプログラム追加
+
 
 
 【2014.02.14】
