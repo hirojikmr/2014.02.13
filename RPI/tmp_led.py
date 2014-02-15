@@ -7,8 +7,9 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(18, GPIO.OUT)
 
 
+flg = 1
 
-for i in range(1000):
+for i in range(50000):
 	# Open the file that we viewed earlier so that python can see what is in it. Replace the serial number as before. 
 	tfile = open("/sys/bus/w1/devices/28-000003dab11b/w1_slave") 
 	# Read all of the text in the file. 
@@ -29,8 +30,9 @@ for i in range(1000):
 	# Put the decimal point in the right place and display it. 
 	temperature = temperature / 1000 
 	print temperature
+
 	
-	if temperature > 20.0 :
+	if temperature > 20.0 or flg == -1 :
 		import RPi.GPIO as GPIO
 
 		# Turn on the pin and see the LED light up.
@@ -39,3 +41,4 @@ for i in range(1000):
 		#Turn off the pin to turn off the LED.
 		GPIO.output(18, GPIO.LOW)
 
+	flg = flg * -1;
