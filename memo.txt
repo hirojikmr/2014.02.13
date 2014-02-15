@@ -47,6 +47,18 @@
 	・Pythonからの操作
 		サンプルプログラム追加
 
+・LEDの点滅
+	・接続方法
+		
+	・コマンド
+		cd /sys/class/gpio/
+		echo "18" > export
+		cd gpio18/
+		echo "out" > direction
+		echo "1" > value
+
+	・Pythonから
+
 
 
 【2014.02.14】
