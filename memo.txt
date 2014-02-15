@@ -14,6 +14,23 @@
 ・MONOist （組込系のニュース）
 ・ドットインストールを読もう(google関連)
 
+＜Raspberry Pi＞
+・シリアルケーブルを試す。
+	ｰ> ドライバをダウンロード
+	-> CDM 2.08.30 WHQL Certified.zip（Googleドライブへ保存） 
+	-> 接続順
+
+　　　　　　　　　　黒橙黄
+		・・・・・・・・・・・・・ 
+		・・・・・・・・・・・・・ 
+		P1
+
+		SD   　　　　MPU       USB
+				       ETHR
+
+		PWR          HDMI
+
+
 
 【2014.02.14】
 
