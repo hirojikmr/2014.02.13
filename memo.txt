@@ -7,13 +7,40 @@
 
 ・GAE
 	-> 1. Hello World
-			-> DL済み。
+			-> DL  (デスクトップ eclipse_kep)
 			-> GAEプラグイン導入
+			-> https://appengine.google.com/ で app idを取得する。
+				(rpi-momox)
+			-> 新規のWEB APP作成＋実行
+			-> GWTプラグイン要求（Chrome）
+			-> war/hoge/main.css
+			-> war/index.html    <----- 静的なファイルをおける
+
+
 	-> 2. GoogleChartでグラフを表示する
 			(GoogleDocsのスプレッドシートベース）
 			-> 読み込んだ。tmp。
+			==> ガジェットというのがない。
+				（とりあえずグラフの共有で表示してみる)
+				http://rpi-momox.appspot.com
+
 	-> 3. 温度センサで室温のログを取る (CVS)
 			-> 昨晩の6時間分のデータ収集済み。
+
+	-> 4. 他
+			-> GITを導入してみる
+				Eclipseから使ってみる
+				EGITをインストールする
+				文字コードの指定 general -> workspace 
+
+			-> directory indexをONにできるのか？ 
+				 	-> すぐに設定は見つからなず
+				   -> servletよりPythonのほうが良いのでは？
+            (とりあえず静的ファイルは使えるのでOKとする）
+		
+	-> 5. GAE
+			-> チュートリアルをざっと見る。
+	==>  
 
 ・RPi
 	-> 1.温度センサをDeviceHubに登録する
