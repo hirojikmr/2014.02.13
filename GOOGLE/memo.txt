@@ -1,0 +1,71 @@
+:
+C:\w\helloworld-momox>tree /f
+フォルダー パスの一覧
+ボリューム シリアル番号は DAA3-0BFE です
+C:.
+│  .classpath
+│  .project
+│
+├─.settings
+│      com.google.appengine.eclipse.core.prefs
+│      com.google.gdt.eclipse.core.prefs
+│      org.eclipse.jdt.core.prefs
+│      org.eclipse.wst.common.project.facet.core.xml
+│
+├─src
+│  │  log4j.properties
+│  │
+│  ├─META-INF
+│  │      jdoconfig.xml
+│  │      persistence.xml
+│  │
+│  └─net
+│      └─momox
+│          └─helloworld
+│                  CopyOfHelloworld_momoxServlet.java
+│                  Helloworld_momoxServlet.java
+│
+└─war
+    │  favicon.ico
+    │  index.html
+    │
+    ├─hoge
+    │      index.html
+    │
+    ├─tmp
+    │      index.html  <---------------------- これを追加
+    │
+    └─WEB-INF
+        │  appengine-web.xml
+        │  logging.properties
+        │  web.xml
+        │
+        ├─classes
+        │  │  log4j.properties
+        │  │
+        │  ├─META-INF
+        │  │      jdoconfig.xml
+        │  │      persistence.xml
+        │  │
+        │  └─net
+        │      └─momox
+        │          └─helloworld
+        │                  CopyOfHelloworld_momoxServlet.class
+        │                  Helloworld_momoxServlet.class
+        │
+        └─lib
+                appengine-api-1.0-sdk-1.8.9.jar
+                appengine-api-labs.jar
+                appengine-endpoints-deps.jar
+                appengine-endpoints.jar
+                appengine-jsr107cache-1.8.9.jar
+                asm-4.0.jar
+                datanucleus-api-jdo-3.1.3.jar
+                datanucleus-api-jpa-3.1.3.jar
+                datanucleus-appengine-2.1.2.jar
+                datanucleus-core-3.1.3.jar
+                geronimo-jpa_2.0_spec-1.0.jar
+                jdo-api-3.0.1.jar
+                jsr107cache-1.1.jar
+                jta-1.1.jar
+

@@ -29,6 +29,7 @@
 
 	-> 4. 他
 			-> GITを導入してみる
+						==> よくわからないので保留
 				Eclipseから使ってみる
 				EGITをインストールする
 				文字コードの指定 general -> workspace 
@@ -36,11 +37,22 @@
 			-> directory indexをONにできるのか？ 
 				 	-> すぐに設定は見つからなず
 				   -> servletよりPythonのほうが良いのでは？
-            (とりあえず静的ファイルは使えるのでOKとする）
+            ==> とりあえず静的ファイルは使えるのでOKとする）
 		
 	-> 5. GAE
 			-> チュートリアルをざっと見る。
+			 (キーワード)
+				auto scaling (apache JMeter)
+
+			（注意）
+			Google SDKs
+				Google Web Toolkit 
+				Google App Engine  <--------- これだけをチェックする
+
+　　　　　--> そうすると、普通のサーブレットになる
+
 	==>  
+
 
 ・RPi
 	-> 1.温度センサをDeviceHubに登録する
