@@ -119,6 +119,28 @@
 		ということは、温度センサに対するドライバがあるということ。
 		なので、この部分を読むと何をしているかわかるかも。
 
+			pi@raspberrypi ~/linux/drivers/w1/slaves $ tree
+			.
+			├── Kconfig
+			├── Makefile
+			├── w1_bq27000.c
+			├── w1_ds2408.c
+			├── w1_ds2413.c
+			├── w1_ds2423.c
+			├── w1_ds2431.c
+			├── w1_ds2433.c
+			├── w1_ds2760.c
+			├── w1_ds2760.h
+			├── w1_ds2780.c
+			├── w1_ds2780.h
+			├── w1_ds2781.c
+			├── w1_ds2781.h
+			├── w1_ds28e04.c
+			├── w1_smem.c
+			└── w1_therm.c
+
+
+
 ・他
 	どんなモバイルアプリがあるか？
 		-> SmartNewsは使いやすい。データを集めているだけ。（Google.Feed)
