@@ -90,6 +90,10 @@
 	-> どんな可能性があるのだろうか。
 	-> dot install でGoogle関連の動画をみる（GoogleFeed）
 		検索させてそれに関するフィードを表示する事もできる。
+		
+		==> サンプルを作ってみる。（感じだけで止める）
+	-> Google Startupの視点
+		https://developers.google.com/products/
 
 ・Goとはどんな言語なの
 	-> チュートリアルをYoutubeで見る
