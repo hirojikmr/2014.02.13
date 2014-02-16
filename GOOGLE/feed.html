@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Google Feed</title>
+	<script src="https://www.google.com/jsapi"></script>
+	<script>
+		google.load("feeds", "1");
+
+		function initialize(){
+			var query = "google api";
+			google.feeds.findFeeds(query, function(result) {
+				if(!result.error){
+					console.log(result);
+
+					var container = document.getElementById('feed');	
+					for(var i=0; i<result.entries.length; i++){
+						var entry = result.entries[i];
+						var link = document.createElement("a");
+						link.href = entry.link;
+						//link.appendChild(document.createTextNode(entry.title));
+						link.innerHTML = entry.title;
+						var li = document.createElement("li");
+						li.appendChild(link);
+						container.appendChild(li);
+					}
+
+
+				}
+			});
+			
+		}
+
+		google.setOnLoadCallback(initialize);
+	</script>
+</head>
+<body>
+	<ul id="feed"></ul>
+</body>
+</html>
+
