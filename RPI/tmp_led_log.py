@@ -3,9 +3,11 @@ import datetime
 import locale   
 import os
 
-os.system("python cp_file.py")
+OUT_FILE ='text.txt'
 
-f = open('text.txt', 'w')
+os.system("python read_data.py")
+
+f = open( OUT_FILE, 'a')
 
 # Use the pin numbers from the ribbon cable board.
 GPIO.setmode(GPIO.BCM)
