@@ -10,7 +10,7 @@
 /	=> Javaで提案するらしい。（返信メールする）
 /2)Python
 /	-> youtube
-/	-> Django <----  GAEのデフォルトはweb2
+/	-> Django <----  GAEのデフォルトはwebapp2
 /  -> GAE    
 		=====>
 		=====>  pythonでGAEアップロードできた！！！

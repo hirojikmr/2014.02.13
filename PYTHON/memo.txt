@@ -44,3 +44,18 @@ Stirng
 del
 	対象を削除する
 
+GAE
+	-> ローカルでアプリ起動	
+		sudo google_appengine/dev_appserver.py --host 192.168.2.92  --port 80 helloworld/
+
+	-> リモートにアップロード
+		./google_appengine/appcfg.py update helloworld/
+		
+
+
+WSGI  web server gateway interface
+		--> simple and universal interface between web servers and web 
+			 applications or frameworks for the Python programming language
+
+
+
