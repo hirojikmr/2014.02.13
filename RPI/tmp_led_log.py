@@ -1,6 +1,9 @@
 import RPi.GPIO as GPIO
 import datetime
 import locale   
+import os
+
+os.system("python cp_file.py")
 
 f = open('text.txt', 'w')
 
@@ -38,6 +41,7 @@ for i in range(100000):
 	d = datetime.datetime.today()
 	f.write("%s,%f\n" % (d.strftime("%Y-%m-%d %H:%M:%S"),temperature))
 #	f.write("%f\n" %  temperature)
+
 
 	
 	if temperature > 20.0 or flg == -1 :
