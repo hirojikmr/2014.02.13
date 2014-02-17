@@ -1,16 +1,25 @@
 【2014.02.18】
-1)Fに提案するキーワード
-	-> jQuery, HTML5, CSS3, JavaScript
-	-> バズワードはなに？
-	以下をメールした
-	１）jQuery　　　（画面に動きをつける）
-	２）HTML5　　 （画面の構造を作る）
-	３）CSS3　　　  （画面に書式を与える）
-	４）JavaScript　（処理を実行する）
-	=> Javaで提案するらしい。（返信メールする）
-2)Python
-	-> youtube
-	-> Django
+/1)Fに提案するキーワード
+/	-> jQuery, HTML5, CSS3, JavaScript
+/	-> バズワードはなに？
+/	以下をメールした
+/	１）jQuery　　　（画面に動きをつける）
+/	２）HTML5　　 （画面の構造を作る）
+/	３）CSS3　　　  （画面に書式を与える）
+/	４）JavaScript　（処理を実行する）
+/	=> Javaで提案するらしい。（返信メールする）
+/2)Python
+/	-> youtube
+/	-> Django <----  GAEのデフォルトはweb2
+/  -> GAE    
+		=====>
+		=====>  pythonでGAEアップロードできた！！！
+		=====>  静的ファイルも公開できる。
+		=====>  しかも、コマンドから同期可能！！！
+		=====>  Google Storeを使うと保存もできる！
+		=====>  さらに、全てがスケーラブル！
+		=====>
+
 3)確定申告
 	-> 名前だけでも 
 		気が向かない。
@@ -38,10 +47,10 @@
 	・広く浅くは、詳細に入らず読むだけに留める
 		(wikiで読む程度）
 
-GWT -> Google Web Toolkit (Ajaxフレームワーク）
-	 -> http://www.gwtproject.org/
-	 -> WEBのフロントエンドを含めたWebアプリを作成できる。
-	 -> JFSとの関連
+/GWT -> Google Web Toolkit (Ajaxフレームワーク）
+/	 -> http://www.gwtproject.org/
+/	 -> WEBのフロントエンドを含めたWebアプリを作成できる。
+/	 -> JFSとの関連
 
 
 【2014.02.16】
