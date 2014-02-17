@@ -7,11 +7,13 @@
 	２）HTML5　　 （画面の構造を作る）
 	３）CSS3　　　  （画面に書式を与える）
 	４）JavaScript　（処理を実行する）
+	=> Javaで提案するらしい。（返信メールする）
 2)Python
 	-> youtube
 	-> Django
 3)確定申告
-	-> 名前だけでも
+	-> 名前だけでも 
+		気が向かない。
 4)nodejs
 	-> 簡単なサイトを作ってみる
 5)mongodb
@@ -27,6 +29,19 @@
 9)jQuery
 	-> 忘れないように
 10)DVD整理
+
+11)GIT for Eclipse
+	作成したコードが保存できると非常にいい
+
+考察
+	・ある程度深さも必要である。
+	・広く浅くは、詳細に入らず読むだけに留める
+		(wikiで読む程度）
+
+GWT -> Google Web Toolkit (Ajaxフレームワーク）
+	 -> http://www.gwtproject.org/
+	 -> WEBのフロントエンドを含めたWebアプリを作成できる。
+	 -> JFSとの関連
 
 
 【2014.02.16】
