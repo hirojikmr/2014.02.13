@@ -1,7 +1,33 @@
 【2014.02.18】
-・Fに提案するキーワード
+1)Fに提案するキーワード
 	-> jQuery, HTML5, CSS3, JavaScript
 	-> バズワードはなに？
+	以下をメールした
+	１）jQuery　　　（画面に動きをつける）
+	２）HTML5　　 （画面の構造を作る）
+	３）CSS3　　　  （画面に書式を与える）
+	４）JavaScript　（処理を実行する）
+2)Python
+	-> youtube
+	-> Django
+3)確定申告
+	-> 名前だけでも
+4)nodejs
+	-> 簡単なサイトを作ってみる
+5)mongodb
+	-> tutorial
+	-> ノートパソコンで導入してみる
+6)GAE
+	-> データの保存
+7)modprobe
+	-> おおまかになにやってるのか。
+8)Go
+	-> tutorial
+	-> GAE
+9)jQuery
+	-> 忘れないように
+10)DVD整理
+
 
 【2014.02.16】
 
