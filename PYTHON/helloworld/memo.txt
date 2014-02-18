@@ -1,4 +1,7 @@
 課題
 	初期ページの作成	index.html
-	hello.html作成
+	hello.html作成    
+	 -> html/を静的ディレクトリとする
+
+	GETアクセスで渡したデータを表示する
 
