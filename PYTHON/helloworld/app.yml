@@ -4,17 +4,22 @@ runtime: python27
 api_version: 1
 threadsafe: true
 
+handlers:
+
+- url: /html
+  static_dir: html
+
+- url: /dtime
+  script: dtime.app
+
+- url: /passdata
+  script: passdata.application
+
+- url: /.*
+  script: guestbook.application
+
 libraries:
 - name: webapp2
   version: latest
 - name: jinja2
   version: latest
-
-handlers:
-- url: /html
-  static_dir: html
-
-- url: /.*
-  script: guestbook.application
-
-

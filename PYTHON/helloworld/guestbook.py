@@ -16,14 +16,34 @@ class MainPage(webapp2.RequestHandler):
 
 	def get(self):
 
-		template_values = {
-			'msg': u"こんにちは"
+
+		template_values = { 
+
 		}
 
-		template = JINJA_ENVIRONMENT.get_template('index.html')
-		self.response.write(template.render(template_values))
+		path = self.request.path
+
+		if path == "/datetime":
+
+			html_template = "datetime.html"
+
+		elif path == "/" or path.find("^index"):
+
+			html_template = "index.html"
+			template_values = {
+				'msg': u"こんにちは",
+				'url': self.request.url,
+				'path': self.request.path
+			}
+
+		else:
+
+			html_template = "err.html"
+		
+		t = JINJA_ENVIRONMENT.get_template(html_template)
+		self.response.write(t.render(template_values))
 
 
 application = webapp2.WSGIApplication([
-    ('/', MainPage),
+    ('/.*', MainPage),
 ], debug=True)
