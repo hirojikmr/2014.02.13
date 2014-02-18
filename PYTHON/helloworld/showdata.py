@@ -29,21 +29,6 @@ class MainPage(webapp2.RequestHandler):
 
 	def get(self):
 
-		d1 = self.request.get('data1')
-		d2 = self.request.get('data2')
-
-		# データ保存
-		if d1!="99.99":
-			temp_data = TempData(
-					parent=ndb.Key("Data", "temp_data"),
-					data1 = d1,
-					data2 = d2
-			)
-			temp_data.put()
-
-			self.response.out.write('done')
-			
-	def skip():
 		ancestor_key = ndb.Key("Data", "temp_data")
 		temp_data = TempData.query_data(ancestor_key).fetch(50)
 
@@ -57,6 +42,7 @@ class MainPage(webapp2.RequestHandler):
 			self.response.out.write('%s->%s<br>' % (temp.data1, temp.data2))
 
 
+	def skip():
 
 		t = JINJA_ENVIRONMENT.get_template("passdata.html")
 		self.response.write(t.render(template_values))

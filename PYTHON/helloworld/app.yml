@@ -15,6 +15,9 @@ handlers:
 - url: /passdata
   script: passdata.application
 
+- url: /showdata
+  script: showdata.application
+
 - url: /.*
   script: guestbook.application
 
