@@ -61,6 +61,6 @@ for i in range(100000):
 	temperature = temp_sum/data_cnt
 	#f.write("%s,%f\n" % (d.strftime("%Y-%m-%d %H:%M:%S"),temperature))
 	print ("%s,%f\n" % (d_second.strftime("%Y-%m-%d %H:%M:%S"),temperature))
-	os.system("wget 'http://python-app-momox.appspot.com/passdata?data1=%s&data2=%f'&> /dev/null" % (d_second.strftime("%Y-%m-%d %H:%M:%S"),temperature ))
+	os.system("wget -o /dev/null 'http://python-app-momox.appspot.com/passdata?data1=%s&data2=%f'&> /dev/null" % (d_second.strftime("%Y-%m-%d %H:%M:%S"),temperature ))
 
 f.close()

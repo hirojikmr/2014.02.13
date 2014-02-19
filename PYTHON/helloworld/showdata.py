@@ -22,29 +22,26 @@ class TempData(ndb.Model):
 	def query_data(cls, ancestor_key):
 		return cls.query(ancestor=ancestor_key).order(-cls.date)
 
-
-
-
 class MainPage(webapp2.RequestHandler):
 
 	def get(self):
-
 		ancestor_key = ndb.Key("Data", "temp_data")
 		temp_data = TempData.query_data(ancestor_key).fetch(50)
 
+		dt = self.request.get('dt')
+		tm = self.request.get('tm')
 		
 		template_values = {
+			'dt':dt,
+			'tm':tm,
 			'temp_data': temp_data
 		}
 
 		# データ表示
-		for temp in temp_data:
-			self.response.out.write('%s->%s<br>' % (temp.data1, temp.data2))
+		#for temp in temp_data:
+		#	self.response.out.write('%s->%s<br>' % (temp.data1, temp.data2))
 
-
-	def skip():
-
-		t = JINJA_ENVIRONMENT.get_template("passdata.html")
+		t = JINJA_ENVIRONMENT.get_template("showdata.html")
 		self.response.write(t.render(template_values))
 
 

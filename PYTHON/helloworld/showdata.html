@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html lang="ja">
+<head>
+       <meta charset="UTF-8">
+</head>
+
+<body>
+	<h1>室温データ表示</h1>
+	<div>{{dt}}</div>
+	<div>{{tm}}</div>
+	<form action="/showdata" method="get">
+		<input type="date" name="dt" value="2014-02-19">
+		<input type="time" name="tm" value="15:00">
+		<input type="submit" value="表示">
+	</form>
+   {% for t in temp_data %}
+		<h2>{{t.data1}}-> {{t.data2}}</h2>
+   {% endfor %}
+</body>
+</html>
+{% endautoescape %}
